@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(196, 132, 144);
+}
+
+.outer-container{
+    margin: 10px;
+    margin-top: 30px;
+    padding: 40px;
+    border: 1px solid black;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+  }
+  .pagination li {
+    font-weight: bold;
+    border: 1px solid black;
+    color: rgb(48, 49, 68);
+    padding: 10px;
+    cursor: pointer;
+
+  }
+  .pagination li.active {
+    
+    font-size: 20px;
+    background-color: rgb(48, 49, 68);
+    color: white;
+  }
+
+  #data-container {
+    display: table;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+  p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    
+  }
+
+  h2 {
+    display: table;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
